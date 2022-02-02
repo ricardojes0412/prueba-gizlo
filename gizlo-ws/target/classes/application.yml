@@ -1,8 +1,0 @@
-server:
-  port: 8082
-spring:
-  application:
-    name: gizlo-ws
-  data:
-    mongodb:
-      uri: mongodb://192.168.100.9:27017/gizlo

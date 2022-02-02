@@ -1,0 +1,24 @@
+<h1>Lista de personas</h1>
+<div class="container">
+  <div class="card m-5 p-3">
+    <div class="card-body">
+      <table class="table table-bordered table-striped table-hover">
+        <thead>
+        <tr>
+          <th style="font-weight: bold">Identificación</th>
+          <th style="font-weight: bold">Nombre</th>
+          <th style="font-weight: bold">Apellido</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let person of persons">
+          <td>{{person.identification}}</td>
+          <td>{{person.name}}</td>
+          <td>{{person.lastname}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
